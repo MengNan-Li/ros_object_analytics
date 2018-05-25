@@ -1,0 +1,402 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Algo	object_analytics_nodelet/tests/unittest_segmenter.cpp	/^class Algo : public Algorithm$/;"	c	file:
+AlgoProvider	object_analytics_nodelet/tests/unittest_segmenter.cpp	/^  AlgoProvider() : algo_(std::make_shared<Algo>())$/;"	f	class:AlgoProvider
+AlgoProvider	object_analytics_nodelet/tests/unittest_segmenter.cpp	/^class AlgoProvider : public AlgorithmProvider$/;"	c	file:
+Algorithm	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/algorithm.h	/^class Algorithm$/;"	c	namespace:object_analytics_nodelet::segmenter
+AlgorithmConfig	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/algorithm_config.h	/^  explicit AlgorithmConfig(ros::NodeHandle& nh, const std::string& name)$/;"	f	class:object_analytics_nodelet::segmenter::AlgorithmConfig
+AlgorithmConfig	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/algorithm_config.h	/^class AlgorithmConfig$/;"	c	namespace:object_analytics_nodelet::segmenter
+AlgorithmProvider	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/algorithm_provider.h	/^class AlgorithmProvider$/;"	c	namespace:object_analytics_nodelet::segmenter
+AlgorithmProviderImpl	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/algorithm_provider_impl.h	/^class AlgorithmProviderImpl : public AlgorithmProvider$/;"	c	namespace:object_analytics_nodelet::segmenter
+AlgorithmProviderImpl	object_analytics_nodelet/src/segmenter/algorithm_provider_impl.cpp	/^AlgorithmProviderImpl::AlgorithmProviderImpl(ros::NodeHandle& nh)$/;"	f	class:object_analytics_nodelet::segmenter::AlgorithmProviderImpl
+Comparator	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/organized_multi_plane_segmenter.h	/^  enum Comparator$/;"	g	class:object_analytics_nodelet::segmenter::OrganizedMultiPlaneSegmenter
+Const	object_analytics_nodelet/include/object_analytics_nodelet/const.h	/^class Const$/;"	c	namespace:object_analytics_nodelet
+DEFAULT	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/algorithm_provider_impl.h	/^  static const std::string DEFAULT;$/;"	m	class:object_analytics_nodelet::segmenter::AlgorithmProviderImpl
+DEFAULT	object_analytics_nodelet/src/segmenter/algorithm_provider_impl.cpp	/^const std::string AlgorithmProviderImpl::DEFAULT = "OrganizedMultiPlaneSegmentation";$/;"	m	class:object_analytics_nodelet::segmenter::AlgorithmProviderImpl	file:
+EIGEN_ALIGN16	object_analytics_nodelet/include/object_analytics_nodelet/model/object_utils.h	/^} EIGEN_ALIGN16;  \/\/ NOLINT$/;"	v	typeref:struct:PointXYZPixel
+FONT	object_analytics_visualization/scripts/image_publisher.py	/^    FONT = cv2.FONT_HERSHEY_SIMPLEX$/;"	v	class:ObjectItem
+FONT_SIZE	object_analytics_visualization/scripts/image_publisher.py	/^    FONT_SIZE = 0.5$/;"	v	class:ObjectItem
+GREEN	object_analytics_visualization/scripts/image_publisher.py	/^    GREEN = (0, 255, 0)$/;"	v	class:ObjectItem
+GREEN	object_analytics_visualization/scripts/marker_publisher.py	/^    GREEN = ColorRGBA(0.0, 1.0, 0.0, 1.0)$/;"	v	class:ObjectItem
+Measure	object_analytics_visualization/scripts/image_publisher.py	/^class Measure(object):$/;"	c
+Merger	object_analytics_nodelet/include/object_analytics_nodelet/merger/merger.h	/^class Merger$/;"	c	namespace:object_analytics_nodelet::merger
+MergerNodelet	object_analytics_nodelet/include/object_analytics_nodelet/merger/merger_nodelet.h	/^class MergerNodelet : public nodelet::Nodelet$/;"	c	namespace:object_analytics_nodelet::merger
+OBJECT_ANALYTICS_NODELET_CONST_H	object_analytics_nodelet/include/object_analytics_nodelet/const.h	19;"	d
+OBJECT_ANALYTICS_NODELET_MERGER_MERGER_H	object_analytics_nodelet/include/object_analytics_nodelet/merger/merger.h	18;"	d
+OBJECT_ANALYTICS_NODELET_MERGER_MERGER_NODELET_H	object_analytics_nodelet/include/object_analytics_nodelet/merger/merger_nodelet.h	18;"	d
+OBJECT_ANALYTICS_NODELET_MODEL_OBJECT2D_H	object_analytics_nodelet/include/object_analytics_nodelet/model/object2d.h	18;"	d
+OBJECT_ANALYTICS_NODELET_MODEL_OBJECT3D_H	object_analytics_nodelet/include/object_analytics_nodelet/model/object3d.h	18;"	d
+OBJECT_ANALYTICS_NODELET_MODEL_OBJECT_UTILS_H	object_analytics_nodelet/include/object_analytics_nodelet/model/object_utils.h	18;"	d
+OBJECT_ANALYTICS_NODELET_SEGMENTER_ALGORITHM_CONFIG_H	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/algorithm_config.h	18;"	d
+OBJECT_ANALYTICS_NODELET_SEGMENTER_ALGORITHM_H	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/algorithm.h	18;"	d
+OBJECT_ANALYTICS_NODELET_SEGMENTER_ALGORITHM_PROVIDER_H	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/algorithm_provider.h	18;"	d
+OBJECT_ANALYTICS_NODELET_SEGMENTER_ALGORITHM_PROVIDER_IMPL_H	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/algorithm_provider_impl.h	18;"	d
+OBJECT_ANALYTICS_NODELET_SEGMENTER_ORGANIZED_MULTI_PLANE_SEGMENTER_H	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/organized_multi_plane_segmenter.h	18;"	d
+OBJECT_ANALYTICS_NODELET_SEGMENTER_SEGMENTER_H	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/segmenter.h	18;"	d
+OBJECT_ANALYTICS_NODELET_SEGMENTER_SEGMENTER_NODELET_H	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/segmenter_nodelet.h	18;"	d
+OBJECT_ANALYTICS_NODELET_SPLITTER_SPLITTER_H	object_analytics_nodelet/include/object_analytics_nodelet/splitter/splitter.h	18;"	d
+OBJECT_ANALYTICS_NODELET_SPLITTER_SPLITTER_NODELET_H	object_analytics_nodelet/include/object_analytics_nodelet/splitter/splitter_nodelet.h	18;"	d
+OBJECT_ANALYTICS_NODELET_TRACKER_TRACKING_H	object_analytics_nodelet/include/object_analytics_nodelet/tracker/tracking.h	18;"	d
+OBJECT_ANALYTICS_NODELET_TRACKER_TRACKING_MANAGER_H	object_analytics_nodelet/include/object_analytics_nodelet/tracker/tracking_manager.h	18;"	d
+OBJECT_ANALYTICS_NODELET_TRACKER_TRACKING_NODELET_H	object_analytics_nodelet/include/object_analytics_nodelet/tracker/tracking_nodelet.h	18;"	d
+Object2D	object_analytics_nodelet/include/object_analytics_nodelet/model/object2d.h	/^class Object2D$/;"	c	namespace:object_analytics_nodelet::model
+Object2D	object_analytics_nodelet/src/model/object2d.cpp	/^Object2D::Object2D(const object_msgs::ObjectInBox& oib) : roi_(oib.roi), object_(oib.object)$/;"	f	class:object_analytics_nodelet::model::Object2D
+Object3D	object_analytics_nodelet/include/object_analytics_nodelet/model/object3d.h	/^class Object3D$/;"	c	namespace:object_analytics_nodelet::model
+Object3D	object_analytics_nodelet/src/model/object3d.cpp	/^Object3D::Object3D(const PointCloudT::ConstPtr& cloud, const std::vector<int>& indices)$/;"	f	class:object_analytics_nodelet::model::Object3D
+Object3D	object_analytics_nodelet/src/model/object3d.cpp	/^Object3D::Object3D(const object_analytics_msgs::ObjectInBox3D& object3d)$/;"	f	class:object_analytics_nodelet::model::Object3D
+ObjectItem	object_analytics_visualization/scripts/image_publisher.py	/^class ObjectItem(object):$/;"	c
+ObjectItem	object_analytics_visualization/scripts/marker_publisher.py	/^class ObjectItem(object):$/;"	c
+ObjectUtils	object_analytics_nodelet/include/object_analytics_nodelet/model/object_utils.h	/^class ObjectUtils$/;"	c	namespace:object_analytics_nodelet::model
+OrganizedMultiPlaneSegmenter	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/organized_multi_plane_segmenter.h	/^class OrganizedMultiPlaneSegmenter : public Algorithm$/;"	c	namespace:object_analytics_nodelet::segmenter
+OrganizedMultiPlaneSegmenter	object_analytics_nodelet/src/segmenter/organized_multi_plane_segmenter.cpp	/^OrganizedMultiPlaneSegmenter::OrganizedMultiPlaneSegmenter(ros::NodeHandle& nh)$/;"	f	class:object_analytics_nodelet::segmenter::OrganizedMultiPlaneSegmenter
+PCL_ADD_POINT4D	object_analytics_nodelet/include/object_analytics_nodelet/model/object_utils.h	/^  PCL_ADD_POINT4D;$/;"	m	struct:PointXYZPixel
+PCL_NO_PRECOMPILE	object_analytics_nodelet/include/object_analytics_nodelet/model/object3d.h	20;"	d
+PCL_NO_PRECOMPILE	object_analytics_nodelet/include/object_analytics_nodelet/model/object_utils.h	20;"	d
+PCL_NO_PRECOMPILE	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/algorithm.h	20;"	d
+PCL_NO_PRECOMPILE	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/algorithm_provider_impl.h	20;"	d
+PCL_NO_PRECOMPILE	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/organized_multi_plane_segmenter.h	20;"	d
+PCL_NO_PRECOMPILE	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/segmenter.h	20;"	d
+PCL_NO_PRECOMPILE	object_analytics_nodelet/include/object_analytics_nodelet/splitter/splitter.h	20;"	d
+PCL_NO_PRECOMPILE	object_analytics_nodelet/src/model/object_utils.cpp	16;"	d	file:
+PCL_NO_PRECOMPILE	object_analytics_nodelet/src/segmenter/segmenter.cpp	16;"	d	file:
+PCL_NO_PRECOMPILE	object_analytics_nodelet/src/splitter/splitter.cpp	16;"	d	file:
+PCL_NO_PRECOMPILE	object_analytics_nodelet/tests/mock_segmenter_detector.cpp	16;"	d	file:
+PCL_NO_PRECOMPILE	object_analytics_nodelet/tests/pc2_publisher.cpp	16;"	d	file:
+PCL_NO_PRECOMPILE	object_analytics_nodelet/tests/unittest_object3d.cpp	16;"	d	file:
+PCL_NO_PRECOMPILE	object_analytics_nodelet/tests/unittest_objectutils.cpp	16;"	d	file:
+PCL_NO_PRECOMPILE	object_analytics_nodelet/tests/unittest_segmenter.cpp	16;"	d	file:
+PCL_NO_PRECOMPILE	object_analytics_nodelet/tests/unittest_splitter.cpp	16;"	d	file:
+PCL_NO_PRECOMPILE	object_analytics_nodelet/tests/unittest_util.cpp	16;"	d	file:
+POSE	object_analytics_visualization/scripts/marker_publisher.py	/^    POSE = Pose()$/;"	v	class:ObjectItem
+PUB_TOPIC	object_analytics_visualization/scripts/image_publisher.py	/^    PUB_TOPIC = 'tracking_rviz'$/;"	v	class:SynchronizedSubscriber
+PointXYZPixel	object_analytics_nodelet/include/object_analytics_nodelet/model/object_utils.h	/^struct PointXYZPixel$/;"	s
+RED	object_analytics_visualization/scripts/image_publisher.py	/^    RED = (255, 0, 0)$/;"	v	class:ObjectItem
+Roi	object_analytics_visualization/scripts/image_publisher.py	/^class Roi(object):$/;"	c
+Roi	object_analytics_visualization/scripts/marker_publisher.py	/^class Roi(object):$/;"	c
+Segmenter	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/segmenter.h	/^class Segmenter$/;"	c	namespace:object_analytics_nodelet::segmenter
+Segmenter	object_analytics_nodelet/src/segmenter/segmenter.cpp	/^Segmenter::Segmenter(std::unique_ptr<AlgorithmProvider> provider) : provider_(std::move(provider))$/;"	f	class:object_analytics_nodelet::segmenter::Segmenter
+SegmenterNodelet	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/segmenter_nodelet.h	/^class SegmenterNodelet : public nodelet::Nodelet$/;"	c	namespace:object_analytics_nodelet::segmenter
+Splitter	object_analytics_nodelet/include/object_analytics_nodelet/splitter/splitter.h	/^class Splitter$/;"	c	namespace:object_analytics_nodelet::splitter
+SplitterNodelet	object_analytics_nodelet/include/object_analytics_nodelet/splitter/splitter_nodelet.h	/^class SplitterNodelet : public nodelet::Nodelet$/;"	c	namespace:object_analytics_nodelet::splitter
+SynchronizedSubscriber	object_analytics_visualization/scripts/image_publisher.py	/^class SynchronizedSubscriber(object):$/;"	c
+SynchronizedSubscriber	object_analytics_visualization/scripts/marker_publisher.py	/^class SynchronizedSubscriber(object):$/;"	c
+TEST	object_analytics_nodelet/tests/mtest_tracking.cpp	/^TEST(TestTracking, testTrackedObjects)$/;"	f
+TEST	object_analytics_nodelet/tests/unittest_merger.cpp	/^TEST(UnitTestMerger, merge_BothEmpty)$/;"	f
+TEST	object_analytics_nodelet/tests/unittest_merger.cpp	/^TEST(UnitTestMerger, merge_Empty2D)$/;"	f
+TEST	object_analytics_nodelet/tests/unittest_merger.cpp	/^TEST(UnitTestMerger, merge_Empty3D)$/;"	f
+TEST	object_analytics_nodelet/tests/unittest_merger.cpp	/^TEST(UnitTestMerger, merge_Normal)$/;"	f
+TEST	object_analytics_nodelet/tests/unittest_object2d.cpp	/^TEST(UnitTestObject2D, getObject)$/;"	f
+TEST	object_analytics_nodelet/tests/unittest_object2d.cpp	/^TEST(UnitTestObject2D, getRoi)$/;"	f
+TEST	object_analytics_nodelet/tests/unittest_object3d.cpp	/^TEST(UnitTestObject3D, constructor_OneParameter)$/;"	f
+TEST	object_analytics_nodelet/tests/unittest_object3d.cpp	/^TEST(UnitTestObject3D, constructor_TwoParameters)$/;"	f
+TEST	object_analytics_nodelet/tests/unittest_objectutils.cpp	/^TEST(UnitTestObjectUtils, copyPointCloud_All)$/;"	f
+TEST	object_analytics_nodelet/tests/unittest_objectutils.cpp	/^TEST(UnitTestObjectUtils, copyPointCloud_Diagonal)$/;"	f
+TEST	object_analytics_nodelet/tests/unittest_objectutils.cpp	/^TEST(UnitTestObjectUtils, copyPointCloud_Empty)$/;"	f
+TEST	object_analytics_nodelet/tests/unittest_objectutils.cpp	/^TEST(UnitTestObjectUtils, fill2DObjects_Empty)$/;"	f
+TEST	object_analytics_nodelet/tests/unittest_objectutils.cpp	/^TEST(UnitTestObjectUtils, fill2DObjects_NormalCase)$/;"	f
+TEST	object_analytics_nodelet/tests/unittest_objectutils.cpp	/^TEST(UnitTestObjectUtils, fill3DObjects_Empty)$/;"	f
+TEST	object_analytics_nodelet/tests/unittest_objectutils.cpp	/^TEST(UnitTestObjectUtils, fill3DObjects_NormalCase)$/;"	f
+TEST	object_analytics_nodelet/tests/unittest_objectutils.cpp	/^TEST(UnitTestObjectUtils, findMaxIntersectionRelationships_NormalCase)$/;"	f
+TEST	object_analytics_nodelet/tests/unittest_objectutils.cpp	/^TEST(UnitTestObjectUtils, getMatch_ExactMatchBetterThanBiggerMatch)$/;"	f
+TEST	object_analytics_nodelet/tests/unittest_objectutils.cpp	/^TEST(UnitTestObjectUtils, getMatch_NoMatch)$/;"	f
+TEST	object_analytics_nodelet/tests/unittest_objectutils.cpp	/^TEST(UnitTestObjectUtils, getMatch_SameOverlapBetterDiviation)$/;"	f
+TEST	object_analytics_nodelet/tests/unittest_objectutils.cpp	/^TEST(UnitTestObjectUtils, getMinMaxPointsInXYZ)$/;"	f
+TEST	object_analytics_nodelet/tests/unittest_objectutils.cpp	/^TEST(UnitTestObjectUtils, getProjectedROI_NormalShapeAllEdgesOnImageBorder)$/;"	f
+TEST	object_analytics_nodelet/tests/unittest_objectutils.cpp	/^TEST(UnitTestObjectUtils, getProjectedROI_NormalShapeNoEdgeOnImageBorder)$/;"	f
+TEST	object_analytics_nodelet/tests/unittest_objectutils.cpp	/^TEST(UnitTestObjectUtils, getProjectedROI_ShapeIsFullOfImage)$/;"	f
+TEST	object_analytics_nodelet/tests/unittest_objectutils.cpp	/^TEST(UnitTestObjectUtils, getProjectedROI_ShapeIsOneColumn)$/;"	f
+TEST	object_analytics_nodelet/tests/unittest_objectutils.cpp	/^TEST(UnitTestObjectUtils, getProjectedROI_ShapeIsOneRow)$/;"	f
+TEST	object_analytics_nodelet/tests/unittest_segmenter.cpp	/^TEST(UnitTestSegmenter, segmenter)$/;"	f
+TEST	object_analytics_nodelet/tests/unittest_splitter.cpp	/^TEST(UNITTESTSplitter, split_EmptyInput)$/;"	f
+TEST	object_analytics_nodelet/tests/unittest_splitter.cpp	/^TEST(UnitTestSplitter, split_Normal)$/;"	f
+TOPIC	object_analytics_visualization/scripts/marker_publisher.py	/^    TOPIC = 'localization_rviz'$/;"	v	class:SynchronizedSubscriber
+Tracking	object_analytics_nodelet/include/object_analytics_nodelet/tracker/tracking.h	/^class Tracking$/;"	c	namespace:object_analytics_nodelet::tracker
+Tracking	object_analytics_nodelet/src/tracker/tracking.cpp	/^Tracking::Tracking(int32_t tracking_id, const std::string& name, const cv::Rect2d& rect)$/;"	f	class:object_analytics_nodelet::tracker::Tracking
+TrackingManager	object_analytics_nodelet/include/object_analytics_nodelet/tracker/tracking_manager.h	/^class TrackingManager$/;"	c	namespace:object_analytics_nodelet::tracker
+TrackingManager	object_analytics_nodelet/src/tracker/tracking_manager.cpp	/^TrackingManager::TrackingManager(ros::NodeHandle &pnh)$/;"	f	class:object_analytics_nodelet::tracker::TrackingManager
+TrackingNodelet	object_analytics_nodelet/include/object_analytics_nodelet/tracker/tracking_nodelet.h	/^class TrackingNodelet : public nodelet::Nodelet$/;"	c	namespace:object_analytics_nodelet::tracker
+YELLOW	object_analytics_visualization/scripts/image_publisher.py	/^    YELLOW = (255, 255, 0)$/;"	v	class:ObjectItem
+YELLOW	object_analytics_visualization/scripts/marker_publisher.py	/^    YELLOW = ColorRGBA(1.0, 1.0, 0.0, 1.0)$/;"	v	class:ObjectItem
+__eq__	object_analytics_visualization/scripts/image_publisher.py	/^    def __eq__(self, other):$/;"	m	class:Roi	file:
+__eq__	object_analytics_visualization/scripts/marker_publisher.py	/^    def __eq__(self, other):$/;"	m	class:Roi	file:
+__hash__	object_analytics_visualization/scripts/image_publisher.py	/^    def __hash__(self):$/;"	m	class:Roi	file:
+__hash__	object_analytics_visualization/scripts/marker_publisher.py	/^    def __hash__(self):$/;"	m	class:Roi	file:
+__init__	object_analytics_visualization/scripts/image_publisher.py	/^    def __init__(self):$/;"	m	class:SynchronizedSubscriber
+__init__	object_analytics_visualization/scripts/image_publisher.py	/^    def __init__(self, cv_image, roi, track_id, detected_object):$/;"	m	class:ObjectItem
+__init__	object_analytics_visualization/scripts/image_publisher.py	/^    def __init__(self, name, topic, msg_type):$/;"	m	class:Measure
+__init__	object_analytics_visualization/scripts/image_publisher.py	/^    def __init__(self, roi):$/;"	m	class:Roi
+__init__	object_analytics_visualization/scripts/marker_publisher.py	/^    def __init__(self):$/;"	m	class:SynchronizedSubscriber
+__init__	object_analytics_visualization/scripts/marker_publisher.py	/^    def __init__(self, header, roi, track_id, detected_object, min, max):$/;"	m	class:ObjectItem
+__init__	object_analytics_visualization/scripts/marker_publisher.py	/^    def __init__(self, roi):$/;"	m	class:Roi
+__str__	object_analytics_visualization/scripts/image_publisher.py	/^    def __str__(self):$/;"	m	class:Measure	file:
+_build_marker_array	object_analytics_visualization/scripts/marker_publisher.py	/^    def _build_marker_array(header, objects):$/;"	m	class:SynchronizedSubscriber
+_callback	object_analytics_visualization/scripts/image_publisher.py	/^    def _callback(self, image, detected_objects, tracked_objects):$/;"	m	class:SynchronizedSubscriber
+_callback	object_analytics_visualization/scripts/image_publisher.py	/^    def _callback(self, msg):$/;"	m	class:Measure
+_callback	object_analytics_visualization/scripts/marker_publisher.py	/^    def _callback(self, detected_objects, localized_objects, tracked_objects):$/;"	m	class:SynchronizedSubscriber
+_draw_measures	object_analytics_visualization/scripts/image_publisher.py	/^    def _draw_measures(self, cv_image):$/;"	m	class:SynchronizedSubscriber
+_draw_name_id	object_analytics_visualization/scripts/image_publisher.py	/^    def _draw_name_id(self):$/;"	m	class:ObjectItem
+_draw_rectangle	object_analytics_visualization/scripts/image_publisher.py	/^    def _draw_rectangle(self):$/;"	m	class:ObjectItem
+_draw_roi_text	object_analytics_visualization/scripts/image_publisher.py	/^    def _draw_roi_text(self):$/;"	m	class:ObjectItem
+_merge_results	object_analytics_visualization/scripts/image_publisher.py	/^    def _merge_results(cv_image, detected_objects, tracked_objects):$/;"	m	class:SynchronizedSubscriber
+_merge_results	object_analytics_visualization/scripts/marker_publisher.py	/^    def _merge_results(detected_objects, localized_objects, tracked_objects):$/;"	m	class:SynchronizedSubscriber
+addTracking	object_analytics_nodelet/src/tracker/tracking_manager.cpp	/^std::shared_ptr<Tracking> TrackingManager::addTracking(const std::string& name, const cv::Rect2d& rect)$/;"	f	class:object_analytics_nodelet::tracker::TrackingManager
+ageing_	object_analytics_nodelet/include/object_analytics_nodelet/tracker/tracking.h	/^  int32_t ageing_;                       \/**< Age of this tracking.*\/$/;"	m	class:object_analytics_nodelet::tracker::Tracking
+aging_th_	object_analytics_nodelet/include/object_analytics_nodelet/tracker/tracking_manager.h	/^  int32_t aging_th_;                        \/**< The effective aging threshold*\/$/;"	m	class:object_analytics_nodelet::tracker::TrackingManager
+algo_	object_analytics_nodelet/tests/unittest_segmenter.cpp	/^  std::shared_ptr<Algorithm> algo_;$/;"	m	class:AlgoProvider	file:
+algorithms	object_analytics_nodelet/cfg/SegmentationAlgorithms.cfg	/^algorithms = gen.enum($/;"	v
+algorithms_	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/algorithm_provider_impl.h	/^  std::map<std::string, std::shared_ptr<Algorithm>> algorithms_;$/;"	m	class:object_analytics_nodelet::segmenter::AlgorithmProviderImpl
+applyConfig	object_analytics_nodelet/src/segmenter/organized_multi_plane_segmenter.cpp	/^void OrganizedMultiPlaneSegmenter::applyConfig()$/;"	f	class:object_analytics_nodelet::segmenter::OrganizedMultiPlaneSegmenter
+cbConfig	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/algorithm_config.h	/^  void cbConfig(ConfigType& config, uint32_t level)$/;"	f	class:object_analytics_nodelet::segmenter::AlgorithmConfig
+cbConfig	object_analytics_nodelet/src/segmenter/algorithm_provider_impl.cpp	/^void AlgorithmProviderImpl::cbConfig(SegmentationAlgorithmsConfig& config, uint32_t level)$/;"	f	class:object_analytics_nodelet::segmenter::AlgorithmProviderImpl
+cbMerge	object_analytics_nodelet/src/merger/merger_nodelet.cpp	/^void MergerNodelet::cbMerge(const ObjectsInBoxes::ConstPtr& objects_in_boxes2d,$/;"	f	class:object_analytics_nodelet::merger::MergerNodelet
+cbSegment	object_analytics_nodelet/src/segmenter/segmenter_nodelet.cpp	/^void SegmenterNodelet::cbSegment(const sensor_msgs::PointCloud2::ConstPtr& points)$/;"	f	class:object_analytics_nodelet::segmenter::SegmenterNodelet
+cbSplit	object_analytics_nodelet/src/splitter/splitter_nodelet.cpp	/^void SplitterNodelet::cbSplit(const sensor_msgs::PointCloud2::ConstPtr& points)$/;"	f	class:object_analytics_nodelet::splitter::SplitterNodelet
+cleanTrackings	object_analytics_nodelet/src/tracker/tracking_manager.cpp	/^void TrackingManager::cleanTrackings()$/;"	f	class:object_analytics_nodelet::tracker::TrackingManager
+clearDetected	object_analytics_nodelet/src/tracker/tracking.cpp	/^void Tracking::clearDetected()$/;"	f	class:object_analytics_nodelet::tracker::Tracking
+comparators	object_analytics_nodelet/cfg/OrganizedMultiPlaneSegmentation.cfg	/^comparators = gen.enum($/;"	v
+composeResult	object_analytics_nodelet/src/merger/merger.cpp	/^void Merger::composeResult(const RelationVector& relations, boost::shared_ptr<ObjectsInBoxes3D>& msgs)$/;"	f	class:object_analytics_nodelet::merger::Merger
+composeResult	object_analytics_nodelet/src/segmenter/segmenter.cpp	/^void Segmenter::composeResult(const std::vector<Object3D>& objects, boost::shared_ptr<ObjectsInBoxes3D>& msg)$/;"	f	class:object_analytics_nodelet::segmenter::Segmenter
+conf_	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/algorithm_config.h	/^  ConfigType conf_;$/;"	m	class:object_analytics_nodelet::segmenter::AlgorithmConfig
+conf_	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/algorithm_provider_impl.h	/^  SegmentationAlgorithmsConfig conf_;$/;"	m	class:object_analytics_nodelet::segmenter::AlgorithmProviderImpl
+conf_	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/organized_multi_plane_segmenter.h	/^  AlgorithmConfig<OrganizedMultiPlaneSegmentationConfig> conf_;$/;"	m	class:object_analytics_nodelet::segmenter::OrganizedMultiPlaneSegmenter
+conf_srv_	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/algorithm_config.h	/^  boost::shared_ptr<dynamic_reconfigure::Server<ConfigType>> conf_srv_;$/;"	m	class:object_analytics_nodelet::segmenter::AlgorithmConfig
+conf_srv_	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/algorithm_provider_impl.h	/^  boost::shared_ptr<dynamic_reconfigure::Server<SegmentationAlgorithmsConfig>> conf_srv_;$/;"	m	class:object_analytics_nodelet::segmenter::AlgorithmProviderImpl
+copyPointCloud	object_analytics_nodelet/src/model/object_utils.cpp	/^void ObjectUtils::copyPointCloud(const PointCloudT::ConstPtr& original, const std::vector<int>& indices,$/;"	f	class:object_analytics_nodelet::model::ObjectUtils
+createHeader	object_analytics_nodelet/tests/unittest_util.cpp	/^Header createHeader(uint32_t seq, const ros::Time& stamp, const std::string& frame_id)$/;"	f
+detect	object_analytics_nodelet/src/tracker/tracking_manager.cpp	/^void TrackingManager::detect(const cv::Mat& mat, const object_msgs::ObjectsInBoxesConstPtr& objs)$/;"	f	class:object_analytics_nodelet::tracker::TrackingManager
+detected_	object_analytics_nodelet/include/object_analytics_nodelet/tracker/tracking.h	/^  bool detected_;                        \/**< Detected status of this tracking.*\/$/;"	m	class:object_analytics_nodelet::tracker::Tracking
+detection_cb	object_analytics_nodelet/tests/mtest_tracking.cpp	/^static void detection_cb(const object_msgs::ObjectsInBoxesConstPtr& objs)$/;"	f	file:
+dfps	object_analytics_nodelet/tests/mtest_tracking.cpp	/^static int32_t dfps;$/;"	v	file:
+dlatency	object_analytics_nodelet/tests/mtest_tracking.cpp	/^static ros::Duration dlatency;$/;"	v	file:
+doSegment	object_analytics_nodelet/src/segmenter/segmenter.cpp	/^void Segmenter::doSegment(const PointCloudT::ConstPtr& cloud, std::vector<Object3D>& objects)$/;"	f	class:object_analytics_nodelet::segmenter::Segmenter
+dobjs	object_analytics_nodelet/tests/mtest_tracking.cpp	/^static object_msgs::ObjectsInBoxesConstPtr dobjs = nullptr;$/;"	v	file:
+draw	object_analytics_visualization/scripts/image_publisher.py	/^    def draw(self):$/;"	m	class:ObjectItem
+edge_aware_comparator_	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/organized_multi_plane_segmenter.h	/^  pcl::EdgeAwarePlaneComparator<PointT, pcl::Normal>::Ptr edge_aware_comparator_;$/;"	m	class:object_analytics_nodelet::segmenter::OrganizedMultiPlaneSegmenter
+edit_method	object_analytics_nodelet/cfg/OrganizedMultiPlaneSegmentation.cfg	/^    edit_method=comparators)$/;"	v
+edit_method	object_analytics_nodelet/cfg/SegmentationAlgorithms.cfg	/^    edit_method=algorithms)$/;"	v
+estimateNormal	object_analytics_nodelet/src/segmenter/organized_multi_plane_segmenter.cpp	/^void OrganizedMultiPlaneSegmenter::estimateNormal(const PointCloudT::ConstPtr& cloud,$/;"	f	class:object_analytics_nodelet::segmenter::OrganizedMultiPlaneSegmenter
+euclidean_cluster_comparator_	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/organized_multi_plane_segmenter.h	/^  pcl::EuclideanClusterComparator<PointT, pcl::Normal, pcl::Label>::Ptr euclidean_cluster_comparator_;$/;"	m	class:object_analytics_nodelet::segmenter::OrganizedMultiPlaneSegmenter
+euclidean_comparator_	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/organized_multi_plane_segmenter.h	/^  pcl::EuclideanPlaneCoefficientComparator<PointT, pcl::Normal>::Ptr euclidean_comparator_;$/;"	m	class:object_analytics_nodelet::segmenter::OrganizedMultiPlaneSegmenter
+fill2DObjects	object_analytics_nodelet/src/model/object_utils.cpp	/^void ObjectUtils::fill2DObjects(const ObjectsInBoxes::ConstPtr& objects_in_boxes2d, Object2DVector& objects2d)$/;"	f	class:object_analytics_nodelet::model::ObjectUtils
+fill3DObjects	object_analytics_nodelet/src/model/object_utils.cpp	/^void ObjectUtils::fill3DObjects(const ObjectsInBoxes3D::ConstPtr& objects_in_boxes3d, Object3DVector& objects3d)$/;"	f	class:object_analytics_nodelet::model::ObjectUtils
+findMaxIntersectionRelationships	object_analytics_nodelet/src/model/object_utils.cpp	/^void ObjectUtils::findMaxIntersectionRelationships(const Object2DVector& objects2d, Object3DVector& objects3d,$/;"	f	class:object_analytics_nodelet::model::ObjectUtils
+gen	object_analytics_nodelet/cfg/OrganizedMultiPlaneSegmentation.cfg	/^gen = ParameterGenerator()$/;"	v
+gen	object_analytics_nodelet/cfg/SegmentationAlgorithms.cfg	/^gen = ParameterGenerator()$/;"	v
+get	object_analytics_nodelet/src/segmenter/algorithm_provider_impl.cpp	/^std::shared_ptr<Algorithm> AlgorithmProviderImpl::get()$/;"	f	class:object_analytics_nodelet::segmenter::AlgorithmProviderImpl
+get	object_analytics_nodelet/tests/unittest_segmenter.cpp	/^  virtual std::shared_ptr<Algorithm> get()$/;"	f	class:AlgoProvider
+getAging	object_analytics_nodelet/src/tracker/tracking.cpp	/^int32_t Tracking::getAging()$/;"	f	class:object_analytics_nodelet::tracker::Tracking
+getConfig	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/algorithm_config.h	/^  ConfigType getConfig()$/;"	f	class:object_analytics_nodelet::segmenter::AlgorithmConfig
+getMatch	object_analytics_nodelet/src/model/object_utils.cpp	/^double ObjectUtils::getMatch(const cv::Rect2d& r1, const cv::Rect2d& r2)$/;"	f	class:object_analytics_nodelet::model::ObjectUtils
+getMax	object_analytics_nodelet/include/object_analytics_nodelet/model/object3d.h	/^  inline geometry_msgs::Point32 getMax() const$/;"	f	class:object_analytics_nodelet::model::Object3D
+getMin	object_analytics_nodelet/include/object_analytics_nodelet/model/object3d.h	/^  inline geometry_msgs::Point32 getMin() const$/;"	f	class:object_analytics_nodelet::model::Object3D
+getMinMaxPointsInX	object_analytics_nodelet/src/model/object_utils.cpp	/^void ObjectUtils::getMinMaxPointsInX(const pcl::PointCloud<PointXYZPixel>::ConstPtr& point_cloud, PointXYZPixel& x_min,$/;"	f	class:object_analytics_nodelet::model::ObjectUtils
+getMinMaxPointsInY	object_analytics_nodelet/src/model/object_utils.cpp	/^void ObjectUtils::getMinMaxPointsInY(const pcl::PointCloud<PointXYZPixel>::ConstPtr& point_cloud, PointXYZPixel& y_min,$/;"	f	class:object_analytics_nodelet::model::ObjectUtils
+getMinMaxPointsInZ	object_analytics_nodelet/src/model/object_utils.cpp	/^void ObjectUtils::getMinMaxPointsInZ(const pcl::PointCloud<PointXYZPixel>::ConstPtr& point_cloud, PointXYZPixel& z_min,$/;"	f	class:object_analytics_nodelet::model::ObjectUtils
+getObjName	object_analytics_nodelet/src/tracker/tracking.cpp	/^std::string Tracking::getObjName()$/;"	f	class:object_analytics_nodelet::tracker::Tracking
+getObject	object_analytics_nodelet/include/object_analytics_nodelet/model/object2d.h	/^  inline object_msgs::Object getObject() const$/;"	f	class:object_analytics_nodelet::model::Object2D
+getObject	object_analytics_nodelet/tests/unittest_util.cpp	/^Object getObject(const std::string name, const float probability)$/;"	f
+getObjectInBox	object_analytics_nodelet/tests/unittest_util.cpp	/^ObjectInBox getObjectInBox(int x_offset, int y_offset, int width, int height, const std::string& name,$/;"	f
+getObjectInBox3D	object_analytics_nodelet/tests/unittest_util.cpp	/^ObjectInBox3D getObjectInBox3D(int x_offset, int y_offset, int width, int height, int min_x, int min_y, int min_z,$/;"	f
+getPclPointCloud	object_analytics_nodelet/src/segmenter/segmenter.cpp	/^void Segmenter::getPclPointCloud(const sensor_msgs::PointCloud2::ConstPtr& points, PointCloudT& pcl_cloud)$/;"	f	class:object_analytics_nodelet::segmenter::Segmenter
+getPoint32	object_analytics_nodelet/tests/unittest_util.cpp	/^Point32 getPoint32(float x, float y, float z)$/;"	f
+getPointT	object_analytics_nodelet/tests/unittest_util.cpp	/^PointT getPointT(float x, float y, float z)$/;"	f
+getProjectedROI	object_analytics_nodelet/src/model/object_utils.cpp	/^void ObjectUtils::getProjectedROI(const pcl::PointCloud<PointXYZPixel>::ConstPtr& point_cloud,$/;"	f	class:object_analytics_nodelet::model::ObjectUtils
+getRect	object_analytics_nodelet/src/tracker/tracking.cpp	/^cv::Rect2d Tracking::getRect()$/;"	f	class:object_analytics_nodelet::tracker::Tracking
+getRoi	object_analytics_nodelet/include/object_analytics_nodelet/model/object2d.h	/^  inline sensor_msgs::RegionOfInterest getRoi() const$/;"	f	class:object_analytics_nodelet::model::Object2D
+getRoi	object_analytics_nodelet/include/object_analytics_nodelet/model/object3d.h	/^  inline sensor_msgs::RegionOfInterest getRoi() const$/;"	f	class:object_analytics_nodelet::model::Object3D
+getRoi	object_analytics_nodelet/tests/unittest_util.cpp	/^RegionOfInterest getRoi(int x_offset, int y_offset, int width, int height)$/;"	f
+getTrackedObjs	object_analytics_nodelet/src/tracker/tracking_manager.cpp	/^int32_t TrackingManager::getTrackedObjs(const object_analytics_msgs::TrackedObjectsPtr& objs)$/;"	f	class:object_analytics_nodelet::tracker::TrackingManager
+getTracking	object_analytics_nodelet/src/tracker/tracking_manager.cpp	/^std::shared_ptr<Tracking> TrackingManager::getTracking(const std::string& obj_name, const cv::Rect2d& drect)$/;"	f	class:object_analytics_nodelet::tracker::TrackingManager
+getTrackingId	object_analytics_nodelet/src/tracker/tracking.cpp	/^int32_t Tracking::getTrackingId()$/;"	f	class:object_analytics_nodelet::tracker::Tracking
+impl_	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/segmenter_nodelet.h	/^  std::unique_ptr<Segmenter> impl_;$/;"	m	class:object_analytics_nodelet::segmenter::SegmenterNodelet
+isDetected	object_analytics_nodelet/src/tracker/tracking.cpp	/^bool Tracking::isDetected()$/;"	f	class:object_analytics_nodelet::tracker::Tracking
+kAgeingThreshold	object_analytics_nodelet/include/object_analytics_nodelet/tracker/tracking_manager.h	/^  static const int32_t kAgeingThreshold;    \/**< The default aging threshold*\/$/;"	m	class:object_analytics_nodelet::tracker::TrackingManager
+kAgeingThreshold	object_analytics_nodelet/src/tracker/tracking_manager.cpp	/^const int32_t TrackingManager::kAgeingThreshold = 16;$/;"	m	class:object_analytics_nodelet::tracker::TrackingManager	file:
+kCvWindowName	object_analytics_nodelet/tests/mtest_tracking.cpp	/^static const std::string kCvWindowName = "Object Analytics View";$/;"	v	file:
+kEdgeAwarePlaneComaprator	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/organized_multi_plane_segmenter.h	/^    kEdgeAwarePlaneComaprator$/;"	e	enum:object_analytics_nodelet::segmenter::OrganizedMultiPlaneSegmenter::Comparator
+kEuclideanPlaneCoefficientComparator	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/organized_multi_plane_segmenter.h	/^    kEuclideanPlaneCoefficientComparator,$/;"	e	enum:object_analytics_nodelet::segmenter::OrganizedMultiPlaneSegmenter::Comparator
+kMatchThreshold	object_analytics_nodelet/include/object_analytics_nodelet/tracker/tracking_manager.h	/^  static const float kMatchThreshold;       \/**< The minimum matching level of roi*\/$/;"	m	class:object_analytics_nodelet::tracker::TrackingManager
+kMatchThreshold	object_analytics_nodelet/src/tracker/tracking_manager.cpp	/^const float TrackingManager::kMatchThreshold = 0;$/;"	m	class:object_analytics_nodelet::tracker::TrackingManager	file:
+kMsgQueueSize	object_analytics_nodelet/include/object_analytics_nodelet/merger/merger_nodelet.h	/^  static const int kMsgQueueSize;$/;"	m	class:object_analytics_nodelet::merger::MergerNodelet
+kMsgQueueSize	object_analytics_nodelet/src/merger/merger_nodelet.cpp	/^const int MergerNodelet::kMsgQueueSize = 100;$/;"	m	class:object_analytics_nodelet::merger::MergerNodelet	file:
+kNumOfThread	object_analytics_nodelet/include/object_analytics_nodelet/tracker/tracking_manager.h	/^  static const int32_t kNumOfThread;        \/**< Number of threads used for paralleling computation*\/$/;"	m	class:object_analytics_nodelet::tracker::TrackingManager
+kNumOfThread	object_analytics_nodelet/src/tracker/tracking_manager.cpp	/^const int32_t TrackingManager::kNumOfThread = 4;$/;"	m	class:object_analytics_nodelet::tracker::TrackingManager	file:
+kPlaneCoefficientComparator	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/organized_multi_plane_segmenter.h	/^    kPlaneCoefficientComparator,$/;"	e	enum:object_analytics_nodelet::segmenter::OrganizedMultiPlaneSegmenter::Comparator
+kProbabilityThreshold	object_analytics_nodelet/include/object_analytics_nodelet/tracker/tracking_manager.h	/^  static const float kProbabilityThreshold; \/**< The default probability threshold*\/$/;"	m	class:object_analytics_nodelet::tracker::TrackingManager
+kProbabilityThreshold	object_analytics_nodelet/src/tracker/tracking_manager.cpp	/^const float TrackingManager::kProbabilityThreshold = 0.5;$/;"	m	class:object_analytics_nodelet::tracker::TrackingManager	file:
+kRGBPlaneCoefficientComparator	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/organized_multi_plane_segmenter.h	/^    kRGBPlaneCoefficientComparator,$/;"	e	enum:object_analytics_nodelet::segmenter::OrganizedMultiPlaneSegmenter::Comparator
+kSamplerInputRadius	object_analytics_nodelet/include/object_analytics_nodelet/tracker/tracking_manager.h	/^  static const int32_t kSamplerInputRadius; \/**< Input radius parameter for tracker's sampling (from OpenCV)*\/$/;"	m	class:object_analytics_nodelet::tracker::TrackingManager
+kSamplerInputRadius	object_analytics_nodelet/src/tracker/tracking_manager.cpp	/^const int32_t TrackingManager::kSamplerInputRadius = 3;$/;"	m	class:object_analytics_nodelet::tracker::TrackingManager	file:
+kTopicDetection	object_analytics_nodelet/include/object_analytics_nodelet/const.h	/^  static const std::string kTopicDetection;     \/**< Topic name of 2d detection's output message *\/$/;"	m	class:object_analytics_nodelet::Const
+kTopicDetection	object_analytics_nodelet/src/const.cpp	/^const std::string Const::kTopicDetection = "detection";$/;"	m	class:object_analytics_nodelet::Const	file:
+kTopicLocalization	object_analytics_nodelet/include/object_analytics_nodelet/const.h	/^  static const std::string kTopicLocalization;  \/**< Topic name of merger nodelet's output message *\/$/;"	m	class:object_analytics_nodelet::Const
+kTopicLocalization	object_analytics_nodelet/src/const.cpp	/^const std::string Const::kTopicLocalization = "localization";$/;"	m	class:object_analytics_nodelet::Const	file:
+kTopicPC2	object_analytics_nodelet/include/object_analytics_nodelet/const.h	/^  static const std::string kTopicPC2;           \/**< Topic name of segmenter nodelet's input message *\/$/;"	m	class:object_analytics_nodelet::Const
+kTopicPC2	object_analytics_nodelet/src/const.cpp	/^const std::string Const::kTopicPC2 = "pointcloud";$/;"	m	class:object_analytics_nodelet::Const	file:
+kTopicRegisteredPC2	object_analytics_nodelet/include/object_analytics_nodelet/const.h	/^  static const std::string kTopicRegisteredPC2; \/**< Topic name of splitter nodelet's input message *\/$/;"	m	class:object_analytics_nodelet::Const
+kTopicRegisteredPC2	object_analytics_nodelet/src/const.cpp	/^const std::string Const::kTopicRegisteredPC2 = "\/camera\/depth_registered\/points";$/;"	m	class:object_analytics_nodelet::Const	file:
+kTopicRgb	object_analytics_nodelet/include/object_analytics_nodelet/const.h	/^  static const std::string kTopicRgb;           \/**< Topic name of 2d detection's input message *\/$/;"	m	class:object_analytics_nodelet::Const
+kTopicRgb	object_analytics_nodelet/src/const.cpp	/^const std::string Const::kTopicRgb = "rgb";$/;"	m	class:object_analytics_nodelet::Const	file:
+kTopicSegmentation	object_analytics_nodelet/include/object_analytics_nodelet/const.h	/^  static const std::string kTopicSegmentation;  \/**< Topic name of segmenter nodelet's output message *\/$/;"	m	class:object_analytics_nodelet::Const
+kTopicSegmentation	object_analytics_nodelet/src/const.cpp	/^const std::string Const::kTopicSegmentation = "segmentation";$/;"	m	class:object_analytics_nodelet::Const	file:
+kTopicTracking	object_analytics_nodelet/include/object_analytics_nodelet/const.h	/^  static const std::string kTopicTracking;      \/**< Topic name of tracker nodelet's output message *\/$/;"	m	class:object_analytics_nodelet::Const
+kTopicTracking	object_analytics_nodelet/src/const.cpp	/^const std::string Const::kTopicTracking = "tracking";$/;"	m	class:object_analytics_nodelet::Const	file:
+last_detection_	object_analytics_nodelet/include/object_analytics_nodelet/tracker/tracking_nodelet.h	/^  ros::Time last_detection_, this_detection_;               \/**< Timestamp of last and this detection frame.*\/$/;"	m	class:object_analytics_nodelet::tracker::TrackingNodelet
+last_obj_	object_analytics_nodelet/include/object_analytics_nodelet/tracker/tracking_nodelet.h	/^  object_msgs::ObjectsInBoxesConstPtr last_obj_, this_obj_; \/**< Last detection frame, and this detection frame.*\/$/;"	m	class:object_analytics_nodelet::tracker::TrackingNodelet
+linelist	object_analytics_visualization/scripts/marker_publisher.py	/^    def linelist(self):$/;"	m	class:ObjectItem
+main	object_analytics_nodelet/tests/mock_segmenter_detector.cpp	/^int main(int argc, char** argv)$/;"	f
+main	object_analytics_nodelet/tests/mtest_tracking.cpp	/^int main(int argc, char** argv)$/;"	f
+main	object_analytics_nodelet/tests/pc2_publisher.cpp	/^int main(int argc, char** argv)$/;"	f
+main	object_analytics_nodelet/tests/unittest_merger.cpp	/^int main(int argc, char** argv)$/;"	f
+main	object_analytics_nodelet/tests/unittest_object2d.cpp	/^int main(int argc, char** argv)$/;"	f
+main	object_analytics_nodelet/tests/unittest_object3d.cpp	/^int main(int argc, char** argv)$/;"	f
+main	object_analytics_nodelet/tests/unittest_objectutils.cpp	/^int main(int argc, char** argv)$/;"	f
+main	object_analytics_nodelet/tests/unittest_segmenter.cpp	/^int main(int argc, char** argv)$/;"	f
+main	object_analytics_nodelet/tests/unittest_splitter.cpp	/^int main(int argc, char** argv)$/;"	f
+max_	object_analytics_nodelet/include/object_analytics_nodelet/model/object3d.h	/^  geometry_msgs::Point32 max_;$/;"	m	class:object_analytics_nodelet::model::Object3D
+max_text	object_analytics_visualization/scripts/marker_publisher.py	/^    def max_text(self):$/;"	m	class:ObjectItem
+merge	object_analytics_nodelet/src/merger/merger.cpp	/^boost::shared_ptr<ObjectsInBoxes3D> Merger::merge(const ObjectsInBoxes::ConstPtr& objects_in_boxes2d,$/;"	f	class:object_analytics_nodelet::merger::Merger
+merger	object_analytics_nodelet/include/object_analytics_nodelet/merger/merger.h	/^namespace merger$/;"	n	namespace:object_analytics_nodelet
+merger	object_analytics_nodelet/include/object_analytics_nodelet/merger/merger_nodelet.h	/^namespace merger$/;"	n	namespace:object_analytics_nodelet
+merger	object_analytics_nodelet/src/merger/merger.cpp	/^namespace merger$/;"	n	namespace:object_analytics_nodelet	file:
+merger	object_analytics_nodelet/src/merger/merger_nodelet.cpp	/^namespace merger$/;"	n	namespace:object_analytics_nodelet	file:
+min_	object_analytics_nodelet/include/object_analytics_nodelet/model/object3d.h	/^  geometry_msgs::Point32 min_;$/;"	m	class:object_analytics_nodelet::model::Object3D
+min_text	object_analytics_visualization/scripts/marker_publisher.py	/^    def min_text(self):$/;"	m	class:ObjectItem
+model	object_analytics_nodelet/include/object_analytics_nodelet/model/object2d.h	/^namespace model$/;"	n	namespace:object_analytics_nodelet
+model	object_analytics_nodelet/include/object_analytics_nodelet/model/object3d.h	/^namespace model$/;"	n	namespace:object_analytics_nodelet
+model	object_analytics_nodelet/include/object_analytics_nodelet/model/object_utils.h	/^namespace model$/;"	n	namespace:object_analytics_nodelet
+model	object_analytics_nodelet/src/model/object2d.cpp	/^namespace model$/;"	n	namespace:object_analytics_nodelet	file:
+model	object_analytics_nodelet/src/model/object3d.cpp	/^namespace model$/;"	n	namespace:object_analytics_nodelet	file:
+model	object_analytics_nodelet/src/model/object_utils.cpp	/^namespace model$/;"	n	namespace:object_analytics_nodelet	file:
+name_id_text	object_analytics_visualization/scripts/marker_publisher.py	/^    def name_id_text(self):$/;"	m	class:ObjectItem
+normal_estimation_	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/organized_multi_plane_segmenter.h	/^  pcl::IntegralImageNormalEstimation<PointT, pcl::Normal> normal_estimation_;$/;"	m	class:object_analytics_nodelet::segmenter::OrganizedMultiPlaneSegmenter
+obj_cb	object_analytics_nodelet/src/tracker/tracking_nodelet.cpp	/^void TrackingNodelet::obj_cb(const object_msgs::ObjectsInBoxesConstPtr& objs)$/;"	f	class:object_analytics_nodelet::tracker::TrackingNodelet
+obj_name_	object_analytics_nodelet/include/object_analytics_nodelet/tracker/tracking.h	/^  std::string obj_name_;                 \/**< Name of the tracked object.*\/$/;"	m	class:object_analytics_nodelet::tracker::Tracking
+object_	object_analytics_nodelet/include/object_analytics_nodelet/model/object2d.h	/^  const object_msgs::Object object_;$/;"	m	class:object_analytics_nodelet::model::Object2D
+object_analytics_nodelet	object_analytics_nodelet/include/object_analytics_nodelet/const.h	/^namespace object_analytics_nodelet$/;"	n
+object_analytics_nodelet	object_analytics_nodelet/include/object_analytics_nodelet/merger/merger.h	/^namespace object_analytics_nodelet$/;"	n
+object_analytics_nodelet	object_analytics_nodelet/include/object_analytics_nodelet/merger/merger_nodelet.h	/^namespace object_analytics_nodelet$/;"	n
+object_analytics_nodelet	object_analytics_nodelet/include/object_analytics_nodelet/model/object2d.h	/^namespace object_analytics_nodelet$/;"	n
+object_analytics_nodelet	object_analytics_nodelet/include/object_analytics_nodelet/model/object3d.h	/^namespace object_analytics_nodelet$/;"	n
+object_analytics_nodelet	object_analytics_nodelet/include/object_analytics_nodelet/model/object_utils.h	/^namespace object_analytics_nodelet$/;"	n
+object_analytics_nodelet	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/algorithm.h	/^namespace object_analytics_nodelet$/;"	n
+object_analytics_nodelet	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/algorithm_config.h	/^namespace object_analytics_nodelet$/;"	n
+object_analytics_nodelet	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/algorithm_provider.h	/^namespace object_analytics_nodelet$/;"	n
+object_analytics_nodelet	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/algorithm_provider_impl.h	/^namespace object_analytics_nodelet$/;"	n
+object_analytics_nodelet	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/organized_multi_plane_segmenter.h	/^namespace object_analytics_nodelet$/;"	n
+object_analytics_nodelet	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/segmenter.h	/^namespace object_analytics_nodelet$/;"	n
+object_analytics_nodelet	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/segmenter_nodelet.h	/^namespace object_analytics_nodelet$/;"	n
+object_analytics_nodelet	object_analytics_nodelet/include/object_analytics_nodelet/splitter/splitter.h	/^namespace object_analytics_nodelet$/;"	n
+object_analytics_nodelet	object_analytics_nodelet/include/object_analytics_nodelet/splitter/splitter_nodelet.h	/^namespace object_analytics_nodelet$/;"	n
+object_analytics_nodelet	object_analytics_nodelet/include/object_analytics_nodelet/tracker/tracking.h	/^namespace object_analytics_nodelet$/;"	n
+object_analytics_nodelet	object_analytics_nodelet/include/object_analytics_nodelet/tracker/tracking_manager.h	/^namespace object_analytics_nodelet$/;"	n
+object_analytics_nodelet	object_analytics_nodelet/include/object_analytics_nodelet/tracker/tracking_nodelet.h	/^namespace object_analytics_nodelet$/;"	n
+object_analytics_nodelet	object_analytics_nodelet/src/const.cpp	/^namespace object_analytics_nodelet$/;"	n	file:
+object_analytics_nodelet	object_analytics_nodelet/src/merger/merger.cpp	/^namespace object_analytics_nodelet$/;"	n	file:
+object_analytics_nodelet	object_analytics_nodelet/src/merger/merger_nodelet.cpp	/^namespace object_analytics_nodelet$/;"	n	file:
+object_analytics_nodelet	object_analytics_nodelet/src/model/object2d.cpp	/^namespace object_analytics_nodelet$/;"	n	file:
+object_analytics_nodelet	object_analytics_nodelet/src/model/object3d.cpp	/^namespace object_analytics_nodelet$/;"	n	file:
+object_analytics_nodelet	object_analytics_nodelet/src/model/object_utils.cpp	/^namespace object_analytics_nodelet$/;"	n	file:
+object_analytics_nodelet	object_analytics_nodelet/src/segmenter/algorithm_provider_impl.cpp	/^namespace object_analytics_nodelet$/;"	n	file:
+object_analytics_nodelet	object_analytics_nodelet/src/segmenter/organized_multi_plane_segmenter.cpp	/^namespace object_analytics_nodelet$/;"	n	file:
+object_analytics_nodelet	object_analytics_nodelet/src/segmenter/segmenter.cpp	/^namespace object_analytics_nodelet$/;"	n	file:
+object_analytics_nodelet	object_analytics_nodelet/src/segmenter/segmenter_nodelet.cpp	/^namespace object_analytics_nodelet$/;"	n	file:
+object_analytics_nodelet	object_analytics_nodelet/src/splitter/splitter.cpp	/^namespace object_analytics_nodelet$/;"	n	file:
+object_analytics_nodelet	object_analytics_nodelet/src/splitter/splitter_nodelet.cpp	/^namespace object_analytics_nodelet$/;"	n	file:
+object_analytics_nodelet	object_analytics_nodelet/src/tracker/tracking.cpp	/^namespace object_analytics_nodelet$/;"	n	file:
+object_analytics_nodelet	object_analytics_nodelet/src/tracker/tracking_manager.cpp	/^namespace object_analytics_nodelet$/;"	n	file:
+object_analytics_nodelet	object_analytics_nodelet/src/tracker/tracking_nodelet.cpp	/^namespace object_analytics_nodelet$/;"	n	file:
+object_minimum_points_	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/organized_multi_plane_segmenter.h	/^  size_t object_minimum_points_;$/;"	m	class:object_analytics_nodelet::segmenter::OrganizedMultiPlaneSegmenter
+onInit	object_analytics_nodelet/src/merger/merger_nodelet.cpp	/^void MergerNodelet::onInit()$/;"	f	class:object_analytics_nodelet::merger::MergerNodelet
+onInit	object_analytics_nodelet/src/segmenter/segmenter_nodelet.cpp	/^void SegmenterNodelet::onInit()$/;"	f	class:object_analytics_nodelet::segmenter::SegmenterNodelet
+onInit	object_analytics_nodelet/src/splitter/splitter_nodelet.cpp	/^void SplitterNodelet::onInit()$/;"	f	class:object_analytics_nodelet::splitter::SplitterNodelet
+onInit	object_analytics_nodelet/src/tracker/tracking_nodelet.cpp	/^void TrackingNodelet::onInit()$/;"	f	class:object_analytics_nodelet::tracker::TrackingNodelet
+operator <<	object_analytics_nodelet/src/model/object2d.cpp	/^std::ostream& operator<<(std::ostream& os, const Object2D& obj)$/;"	f	namespace:object_analytics_nodelet::model
+operator <<	object_analytics_nodelet/src/model/object3d.cpp	/^std::ostream& operator<<(std::ostream& os, const Object3D& obj)$/;"	f	namespace:object_analytics_nodelet::model
+operator ==	object_analytics_nodelet/tests/unittest_util.cpp	/^bool operator==(const Header& left, const Header& right)$/;"	f
+operator ==	object_analytics_nodelet/tests/unittest_util.cpp	/^bool operator==(const Object& left, const Object& right)$/;"	f
+operator ==	object_analytics_nodelet/tests/unittest_util.cpp	/^bool operator==(const Object2D& left, const Object2D& right)$/;"	f
+operator ==	object_analytics_nodelet/tests/unittest_util.cpp	/^bool operator==(const Object3D& left, const Object3D& right)$/;"	f
+operator ==	object_analytics_nodelet/tests/unittest_util.cpp	/^bool operator==(const ObjectInBox& left, const Object2D& right)$/;"	f
+operator ==	object_analytics_nodelet/tests/unittest_util.cpp	/^bool operator==(const ObjectInBox3D& left, const Object3D& right)$/;"	f
+operator ==	object_analytics_nodelet/tests/unittest_util.cpp	/^bool operator==(const ObjectInBox3D& left, const ObjectInBox3D& right)$/;"	f
+operator ==	object_analytics_nodelet/tests/unittest_util.cpp	/^bool operator==(const Point32& left, const Point32& right)$/;"	f
+operator ==	object_analytics_nodelet/tests/unittest_util.cpp	/^bool operator==(const PointT& left, const PointT& right)$/;"	f
+operator ==	object_analytics_nodelet/tests/unittest_util.cpp	/^bool operator==(const PointXYZPixel& left, const PointT& right)$/;"	f
+operator ==	object_analytics_nodelet/tests/unittest_util.cpp	/^bool operator==(const RegionOfInterest& left, const RegionOfInterest& right)$/;"	f
+pixel_x	object_analytics_nodelet/include/object_analytics_nodelet/model/object_utils.h	/^  uint32_t pixel_x;$/;"	m	struct:PointXYZPixel
+pixel_y	object_analytics_nodelet/include/object_analytics_nodelet/model/object_utils.h	/^  uint32_t pixel_y;$/;"	m	struct:PointXYZPixel
+plane_comparator_	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/organized_multi_plane_segmenter.h	/^  pcl::PlaneCoefficientComparator<PointT, pcl::Normal>::Ptr plane_comparator_;$/;"	m	class:object_analytics_nodelet::segmenter::OrganizedMultiPlaneSegmenter
+plane_minimum_points_	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/organized_multi_plane_segmenter.h	/^  size_t plane_minimum_points_;$/;"	m	class:object_analytics_nodelet::segmenter::OrganizedMultiPlaneSegmenter
+plane_segmentation_	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/organized_multi_plane_segmenter.h	/^  pcl::OrganizedMultiPlaneSegmentation<PointT, pcl::Normal, pcl::Label> plane_segmentation_;$/;"	m	class:object_analytics_nodelet::segmenter::OrganizedMultiPlaneSegmenter
+probability_th_	object_analytics_nodelet/include/object_analytics_nodelet/tracker/tracking_manager.h	/^  float probability_th_;                    \/**< The effective probability threshold*\/$/;"	m	class:object_analytics_nodelet::tracker::TrackingManager
+provider_	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/segmenter.h	/^  std::unique_ptr<AlgorithmProvider> provider_;$/;"	m	class:object_analytics_nodelet::segmenter::Segmenter
+pub_	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/segmenter_nodelet.h	/^  ros::Publisher pub_;$/;"	m	class:object_analytics_nodelet::segmenter::SegmenterNodelet
+pub_2d_	object_analytics_nodelet/include/object_analytics_nodelet/splitter/splitter_nodelet.h	/^  ros::Publisher pub_2d_;$/;"	m	class:object_analytics_nodelet::splitter::SplitterNodelet
+pub_3d_	object_analytics_nodelet/include/object_analytics_nodelet/splitter/splitter_nodelet.h	/^  ros::Publisher pub_3d_;$/;"	m	class:object_analytics_nodelet::splitter::SplitterNodelet
+pub_tracking_	object_analytics_nodelet/include/object_analytics_nodelet/tracker/tracking_nodelet.h	/^  ros::Publisher pub_tracking_;                             \/**< Tracking publisher.*\/$/;"	m	class:object_analytics_nodelet::tracker::TrackingNodelet
+readPointCloudFromPCD	object_analytics_nodelet/tests/unittest_util.cpp	/^void readPointCloudFromPCD(const std::string& name, PointCloudT::Ptr& pointcloud)$/;"	f
+received_tracks	object_analytics_nodelet/tests/mtest_tracking.cpp	/^static bool received_tracks;$/;"	v	file:
+rect_	object_analytics_nodelet/include/object_analytics_nodelet/tracker/tracking.h	/^  cv::Rect2d rect_;                      \/**< Roi of the tracked object.*\/$/;"	m	class:object_analytics_nodelet::tracker::Tracking
+rectifyTracker	object_analytics_nodelet/src/tracker/tracking.cpp	/^void Tracking::rectifyTracker(const cv::Mat& mat, const cv::Rect2d& rect)$/;"	f	class:object_analytics_nodelet::tracker::Tracking
+rgb_cb	object_analytics_nodelet/src/tracker/tracking_nodelet.cpp	/^void TrackingNodelet::rgb_cb(const sensor_msgs::ImageConstPtr& img)$/;"	f	class:object_analytics_nodelet::tracker::TrackingNodelet
+rgb_comparator_	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/organized_multi_plane_segmenter.h	/^  pcl::RGBPlaneCoefficientComparator<PointT, pcl::Normal>::Ptr rgb_comparator_;$/;"	m	class:object_analytics_nodelet::segmenter::OrganizedMultiPlaneSegmenter
+rgbs_	object_analytics_nodelet/include/object_analytics_nodelet/tracker/tracking_nodelet.h	/^  std::vector<sensor_msgs::ImageConstPtr> rgbs_;            \/**< Rgb image buffer.*\/$/;"	m	class:object_analytics_nodelet::tracker::TrackingNodelet
+roi_	object_analytics_nodelet/include/object_analytics_nodelet/model/object2d.h	/^  const sensor_msgs::RegionOfInterest roi_;$/;"	m	class:object_analytics_nodelet::model::Object2D
+roi_	object_analytics_nodelet/include/object_analytics_nodelet/model/object3d.h	/^  sensor_msgs::RegionOfInterest roi_;$/;"	m	class:object_analytics_nodelet::model::Object3D
+segment	object_analytics_nodelet/src/segmenter/organized_multi_plane_segmenter.cpp	/^void OrganizedMultiPlaneSegmenter::segment(const PointCloudT::ConstPtr& cloud, PointCloudT::Ptr& cloud_segment,$/;"	f	class:object_analytics_nodelet::segmenter::OrganizedMultiPlaneSegmenter
+segment	object_analytics_nodelet/src/segmenter/segmenter.cpp	/^void Segmenter::segment(const sensor_msgs::PointCloud2::ConstPtr& points, boost::shared_ptr<ObjectsInBoxes3D>& msg)$/;"	f	class:object_analytics_nodelet::segmenter::Segmenter
+segment	object_analytics_nodelet/tests/unittest_segmenter.cpp	/^  void segment(const pcl::PointCloud<pcl::PointXYZRGBA>::ConstPtr& cloud,$/;"	f	class:Algo
+segmentObjects	object_analytics_nodelet/src/segmenter/organized_multi_plane_segmenter.cpp	/^void OrganizedMultiPlaneSegmenter::segmentObjects($/;"	f	class:object_analytics_nodelet::segmenter::OrganizedMultiPlaneSegmenter
+segmentPlanes	object_analytics_nodelet/src/segmenter/organized_multi_plane_segmenter.cpp	/^void OrganizedMultiPlaneSegmenter::segmentPlanes($/;"	f	class:object_analytics_nodelet::segmenter::OrganizedMultiPlaneSegmenter
+segmenter	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/algorithm.h	/^namespace segmenter$/;"	n	namespace:object_analytics_nodelet
+segmenter	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/algorithm_config.h	/^namespace segmenter$/;"	n	namespace:object_analytics_nodelet
+segmenter	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/algorithm_provider.h	/^namespace segmenter$/;"	n	namespace:object_analytics_nodelet
+segmenter	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/algorithm_provider_impl.h	/^namespace segmenter$/;"	n	namespace:object_analytics_nodelet
+segmenter	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/organized_multi_plane_segmenter.h	/^namespace segmenter$/;"	n	namespace:object_analytics_nodelet
+segmenter	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/segmenter.h	/^namespace segmenter$/;"	n	namespace:object_analytics_nodelet
+segmenter	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/segmenter_nodelet.h	/^namespace segmenter$/;"	n	namespace:object_analytics_nodelet
+segmenter	object_analytics_nodelet/src/segmenter/algorithm_provider_impl.cpp	/^namespace segmenter$/;"	n	namespace:object_analytics_nodelet	file:
+segmenter	object_analytics_nodelet/src/segmenter/organized_multi_plane_segmenter.cpp	/^namespace segmenter$/;"	n	namespace:object_analytics_nodelet	file:
+segmenter	object_analytics_nodelet/src/segmenter/segmenter.cpp	/^namespace segmenter$/;"	n	namespace:object_analytics_nodelet	file:
+segmenter	object_analytics_nodelet/src/segmenter/segmenter_nodelet.cpp	/^namespace segmenter$/;"	n	namespace:object_analytics_nodelet	file:
+setDetected	object_analytics_nodelet/src/tracker/tracking.cpp	/^void Tracking::setDetected()$/;"	f	class:object_analytics_nodelet::tracker::Tracking
+split	object_analytics_nodelet/src/splitter/splitter.cpp	/^void Splitter::split(const sensor_msgs::PointCloud2::ConstPtr& points, sensor_msgs::Image::Ptr& image)$/;"	f	class:object_analytics_nodelet::splitter::Splitter
+splitter	object_analytics_nodelet/include/object_analytics_nodelet/splitter/splitter.h	/^namespace splitter$/;"	n	namespace:object_analytics_nodelet
+splitter	object_analytics_nodelet/include/object_analytics_nodelet/splitter/splitter_nodelet.h	/^namespace splitter$/;"	n	namespace:object_analytics_nodelet
+splitter	object_analytics_nodelet/src/splitter/splitter.cpp	/^namespace splitter$/;"	n	namespace:object_analytics_nodelet	file:
+splitter	object_analytics_nodelet/src/splitter/splitter_nodelet.cpp	/^namespace splitter$/;"	n	namespace:object_analytics_nodelet	file:
+sub_	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/segmenter_nodelet.h	/^  ros::Subscriber sub_;$/;"	m	class:object_analytics_nodelet::segmenter::SegmenterNodelet
+sub_2d_	object_analytics_nodelet/include/object_analytics_nodelet/merger/merger_nodelet.h	/^  std::unique_ptr<Subscriber2D> sub_2d_;$/;"	m	class:object_analytics_nodelet::merger::MergerNodelet
+sub_3d_	object_analytics_nodelet/include/object_analytics_nodelet/merger/merger_nodelet.h	/^  std::unique_ptr<Subscriber3D> sub_3d_;$/;"	m	class:object_analytics_nodelet::merger::MergerNodelet
+sub_obj_	object_analytics_nodelet/include/object_analytics_nodelet/tracker/tracking_nodelet.h	/^  ros::Subscriber sub_obj_;                                 \/**< Object detection subscriber.*\/$/;"	m	class:object_analytics_nodelet::tracker::TrackingNodelet
+sub_pc2_	object_analytics_nodelet/include/object_analytics_nodelet/splitter/splitter_nodelet.h	/^  ros::Subscriber sub_pc2_;$/;"	m	class:object_analytics_nodelet::splitter::SplitterNodelet
+sub_rgb_	object_analytics_nodelet/include/object_analytics_nodelet/tracker/tracking_nodelet.h	/^  ros::Subscriber sub_rgb_;                                 \/**< Rgb image subscriber.*\/$/;"	m	class:object_analytics_nodelet::tracker::TrackingNodelet
+sub_sync_	object_analytics_nodelet/include/object_analytics_nodelet/merger/merger_nodelet.h	/^  std::unique_ptr<ApproximateSynchronizer2D3D> sub_sync_;$/;"	m	class:object_analytics_nodelet::merger::MergerNodelet
+this_detection_	object_analytics_nodelet/include/object_analytics_nodelet/tracker/tracking_nodelet.h	/^  ros::Time last_detection_, this_detection_;               \/**< Timestamp of last and this detection frame.*\/$/;"	m	class:object_analytics_nodelet::tracker::TrackingNodelet
+this_obj_	object_analytics_nodelet/include/object_analytics_nodelet/tracker/tracking_nodelet.h	/^  object_msgs::ObjectsInBoxesConstPtr last_obj_, this_obj_; \/**< Last detection frame, and this detection frame.*\/$/;"	m	class:object_analytics_nodelet::tracker::TrackingNodelet
+tm_	object_analytics_nodelet/include/object_analytics_nodelet/tracker/tracking_nodelet.h	/^  std::shared_ptr<TrackingManager> tm_;                     \/**< TrackingManager*\/$/;"	m	class:object_analytics_nodelet::tracker::TrackingNodelet
+track	object_analytics_nodelet/src/tracker/tracking_manager.cpp	/^void TrackingManager::track(const cv::Mat& mat)$/;"	f	class:object_analytics_nodelet::tracker::TrackingManager
+tracker	object_analytics_nodelet/include/object_analytics_nodelet/tracker/tracking.h	/^namespace tracker$/;"	n	namespace:object_analytics_nodelet
+tracker	object_analytics_nodelet/include/object_analytics_nodelet/tracker/tracking_manager.h	/^namespace tracker$/;"	n	namespace:object_analytics_nodelet
+tracker	object_analytics_nodelet/include/object_analytics_nodelet/tracker/tracking_nodelet.h	/^namespace tracker$/;"	n	namespace:object_analytics_nodelet
+tracker	object_analytics_nodelet/src/tracker/tracking.cpp	/^namespace tracker$/;"	n	namespace:object_analytics_nodelet	file:
+tracker	object_analytics_nodelet/src/tracker/tracking_manager.cpp	/^namespace tracker$/;"	n	namespace:object_analytics_nodelet	file:
+tracker	object_analytics_nodelet/src/tracker/tracking_nodelet.cpp	/^namespace tracker$/;"	n	namespace:object_analytics_nodelet	file:
+tracker_	object_analytics_nodelet/include/object_analytics_nodelet/tracker/tracking.h	/^  cv::Ptr<cv::Tracker> tracker_;         \/**< Tracker associated to this tracking.*\/$/;"	m	class:object_analytics_nodelet::tracker::Tracking
+tracking_cb	object_analytics_nodelet/tests/mtest_tracking.cpp	/^static void tracking_cb(const sensor_msgs::ImageConstPtr& rgb,$/;"	f	file:
+tracking_cnt	object_analytics_nodelet/include/object_analytics_nodelet/tracker/tracking_manager.h	/^  static int32_t tracking_cnt;              \/**< Count of trackings, as a unique ID of a same object across frames*\/$/;"	m	class:object_analytics_nodelet::tracker::TrackingManager
+tracking_cnt	object_analytics_nodelet/src/tracker/tracking_manager.cpp	/^int32_t TrackingManager::tracking_cnt = 0;$/;"	m	class:object_analytics_nodelet::tracker::TrackingManager	file:
+tracking_id_	object_analytics_nodelet/include/object_analytics_nodelet/tracker/tracking.h	/^  int32_t tracking_id_;                  \/**< ID of this tracking.*\/$/;"	m	class:object_analytics_nodelet::tracker::Tracking
+tracking_publish	object_analytics_nodelet/src/tracker/tracking_nodelet.cpp	/^void TrackingNodelet::tracking_publish(const std_msgs::Header& header)$/;"	f	class:object_analytics_nodelet::tracker::TrackingNodelet
+trackings_	object_analytics_nodelet/include/object_analytics_nodelet/tracker/tracking_manager.h	/^  std::vector<std::shared_ptr<Tracking>> trackings_; \/**< List of trackings, each for one detected object*\/$/;"	m	class:object_analytics_nodelet::tracker::TrackingManager
+updateTracker	object_analytics_nodelet/src/tracker/tracking.cpp	/^bool Tracking::updateTracker(const cv::Mat& mat)$/;"	f	class:object_analytics_nodelet::tracker::Tracking
+validateROI	object_analytics_nodelet/src/tracker/tracking_manager.cpp	/^bool TrackingManager::validateROI(const cv::Mat& mat, const sensor_msgs::RegionOfInterest& droi)$/;"	f	class:object_analytics_nodelet::tracker::TrackingManager
+~AlgorithmProvider	object_analytics_nodelet/include/object_analytics_nodelet/segmenter/algorithm_provider.h	/^  virtual ~AlgorithmProvider()$/;"	f	class:object_analytics_nodelet::segmenter::AlgorithmProvider
+~Tracking	object_analytics_nodelet/src/tracker/tracking.cpp	/^Tracking::~Tracking()$/;"	f	class:object_analytics_nodelet::tracker::Tracking
+~TrackingManager	object_analytics_nodelet/src/tracker/tracking_manager.cpp	/^TrackingManager::~TrackingManager()$/;"	f	class:object_analytics_nodelet::tracker::TrackingManager
+~TrackingNodelet	object_analytics_nodelet/src/tracker/tracking_nodelet.cpp	/^TrackingNodelet::~TrackingNodelet()$/;"	f	class:object_analytics_nodelet::tracker::TrackingNodelet

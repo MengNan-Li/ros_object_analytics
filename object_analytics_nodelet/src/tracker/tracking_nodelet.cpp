@@ -59,6 +59,7 @@ void TrackingNodelet::obj_cb(const object_msgs::ObjectsInBoxesConstPtr& objs)
   this_detection_ = objs->header.stamp;
   last_obj_ = this_obj_;
   this_obj_ = objs;
+  ROS_DEBUG("tracking_nodelet: obj_cb");
   if (last_detection_ == ros::Time())
   {
     return;

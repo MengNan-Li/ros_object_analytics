@@ -13,12 +13,20 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 -->
+<!--
+
+/camera/depth_registered/points"
+
+  <arg name="input_points"                  default="/water_astra_rgbd/depth_registered/image_raw"
+            doc="point cloud topic from rgbd sensor" />
+-->
 <launch>
   <arg name="namespace"                     default="object_analytics" />
   <arg name="manager"                       default="ObjectAnalyticsMgr" />
+
   <arg name="input_points"                  default="/camera/depth_registered/points"
             doc="point cloud topic from rgbd sensor" />
-  <arg name="input_rgb"                     default="rgb"
+  <arg name="input_rgb"                     default="rgb" 
             doc="rgb topic from splitter" />
   <arg name="input_detection"               default="detection"
             doc="detection result topic from object detection nodelet" />
@@ -31,12 +39,13 @@ limitations under the License.
   <arg name="probability_th"                default="0.4"
             doc="tracking object probability threshold" />
 
+<!--加载ObjectAnalyticsMgr nodelet-->
   <group ns="$(arg namespace)">
       <include file="$(find object_analytics_launch)/launch/includes/manager.launch">
           <arg name="name"                      value="$(arg manager)" />
           <arg name="num_worker_threads"        value="6" />
       </include>
-
+<!-- 分片-分割-融合-定位 -->
       <include file="$(find object_analytics_launch)/launch/includes/nodelet.launch.xml">
           <arg name="manager"                   value="$(arg manager)" />
           <arg name="input_points"              value="$(arg input_points)" />
